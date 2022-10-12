@@ -1,6 +1,14 @@
 #include"SphereCollider.h"
 #include<math.h>
 
+SphereCollider::SphereCollider(T_Location location, float radius)
+{
+	this->location.x = location.x;
+	this->location.y = location.y;
+
+	this->radius = radius;
+}
+
 bool SphereCollider::HitSphere(SphereCollider s)
 {
 	//‰~‚Æ‰~‚Ì“–‚½‚è”»’è
@@ -10,18 +18,17 @@ bool SphereCollider::HitSphere(SphereCollider s)
 	float y = this->location.y -location.y;
 
 	//â‘Î’l‚É•ÏŠ·
-	x = x < 0 ? -x : x;
-	y = y < 0 ? -y : y;
+	x = fabsf(x);
+	y = fabsf(y);
 	
 	//ƒxƒNƒgƒ‹‚Ì‘å‚«‚³‚ğæ“¾
-	float x2 = x * y;
-	float y2 = y * y;
-	float xy = x2 + y2;
+	float xy =(x*x)+(y*y);
 	double vectorSize = sqrt(xy);
 
-	//©•ª‚Ì”¼Œa{‘Šè‚Ì”¼Œa@‚æ‚è¬‚³‚¢“–‚½‚Á‚Ä‚é
+	//©•ª‚Ì”¼Œa{‘Šè‚Ì”¼Œa ‚ğæ“¾
 	float radius = this->radius + s.GetRadius();
 
+	//ƒxƒNƒgƒ‹‚Ì‘å‚«‚³<=‚Ì
 	bool ret = (vectorSize <= radius);
 	return ret;
 }

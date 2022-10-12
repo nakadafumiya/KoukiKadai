@@ -19,16 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-4\GameMainScene.cpp" />
-    <ClCompile Include="2-4\SceneManager.cpp" />
-    <ClCompile Include="2-4\GameMain.cpp" />
-    <ClCompile Include="2-4\SphereCollider.cpp" />
+    <ClCompile Include="2-4\cpp\GameMainScene.cpp" />
+    <ClCompile Include="2-4\cpp\SceneManager.cpp" />
+    <ClCompile Include="2-4\cpp\GameMain.cpp" />
+    <ClCompile Include="2-4\cpp\SphereCollider.cpp" />
+    <ClCompile Include="2-4\cpp\CharaBase.cpp" />
+    <ClCompile Include="2-4\cpp\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="2-4\AbstractScene.h" />
-    <ClInclude Include="2-4\GameMainScene.h" />
-    <ClInclude Include="2-4\SceneManager.h" />
-    <ClInclude Include="2-4\SphereCollider.h" />
+    <ClInclude Include="2-4\cpp\AbstractScene.h" />
+    <ClInclude Include="2-4\cpp\GameMainScene.h" />
+    <ClInclude Include="2-4\cpp\SceneManager.h" />
+    <ClInclude Include="2-4\cpp\SphereCollider.h" />
+    <ClInclude Include="2-4\cpp\CharaBase.h" />
+    <ClInclude Include="2-4\cpp\Player.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
