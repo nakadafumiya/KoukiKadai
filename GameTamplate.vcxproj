@@ -25,6 +25,7 @@
     <ClCompile Include="2-4\cpp\SphereCollider.cpp" />
     <ClCompile Include="2-4\cpp\CharaBase.cpp" />
     <ClCompile Include="2-4\cpp\Player.cpp" />
+    <ClCompile Include="2-4\cpp\KeyManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2-4\cpp\AbstractScene.h" />
@@ -33,6 +34,7 @@
     <ClInclude Include="2-4\cpp\SphereCollider.h" />
     <ClInclude Include="2-4\cpp\CharaBase.h" />
     <ClInclude Include="2-4\cpp\Player.h" />
+    <ClInclude Include="2-4\cpp\KeyManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
