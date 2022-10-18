@@ -14,3 +14,8 @@ void CharaBase::SetSpeed(T_Location speed)
 	this->speed.x = speed.x;
 	this->speed.y = speed.y;
 }
+
+BulletsBase** CharaBase::GetBullets()
+{
+	return bullets;
+}

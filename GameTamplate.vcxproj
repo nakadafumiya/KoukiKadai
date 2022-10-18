@@ -26,6 +26,8 @@
     <ClCompile Include="2-4\cpp\CharaBase.cpp" />
     <ClCompile Include="2-4\cpp\Player.cpp" />
     <ClCompile Include="2-4\cpp\KeyManager.cpp" />
+    <ClCompile Include="2-4\cpp\BulletsBase.cpp" />
+    <ClCompile Include="2-4\cpp\StraightBullets.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2-4\cpp\AbstractScene.h" />
@@ -35,6 +37,8 @@
     <ClInclude Include="2-4\cpp\CharaBase.h" />
     <ClInclude Include="2-4\cpp\Player.h" />
     <ClInclude Include="2-4\cpp\KeyManager.h" />
+    <ClInclude Include="2-4\cpp\BulletsBase.h" />
+    <ClInclude Include="2-4\cpp\StraightBullets.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
