@@ -1,12 +1,17 @@
 #pragma once
 #include"AbstractScene.h"	
 #include"Player.h"
+#include"Enemy.h"
+#include"HPPotion.h"
+#include"ItemBase.h"
 
 //デフォルトの抽象シーンクラス
 //ユーザーはこれを継承してシーンを実装すると楽
 class GameMainScene : public AbstractScene {
 private:
 	Player*player;
+	Enemy** enemy;
+	ItemBase** items;
 public:
 	
     GameMainScene() 
@@ -18,7 +23,20 @@ public:
 		float radius = 10.f;
 
 		player = new Player(location, radius);
-	};
+
+		enemy = new Enemy*[10];
+		for (int i = 0; i < 10; i++)
+		{
+				enemy[i] = nullptr;
+		}
+		enemy[0] = new Enemy(T_Location{ 300,0 }, 20);
+
+		items = new ItemBase * [10];
+		for (int i = 0; i < 10; i++)
+		{
+			items[i] = nullptr;
+		}
+	}
 
 	//デストラクタ
 	virtual ~GameMainScene()

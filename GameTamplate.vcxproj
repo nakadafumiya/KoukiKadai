@@ -19,26 +19,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-4\cpp\GameMainScene.cpp" />
-    <ClCompile Include="2-4\cpp\SceneManager.cpp" />
-    <ClCompile Include="2-4\cpp\GameMain.cpp" />
-    <ClCompile Include="2-4\cpp\SphereCollider.cpp" />
-    <ClCompile Include="2-4\cpp\CharaBase.cpp" />
-    <ClCompile Include="2-4\cpp\Player.cpp" />
-    <ClCompile Include="2-4\cpp\KeyManager.cpp" />
-    <ClCompile Include="2-4\cpp\BulletsBase.cpp" />
-    <ClCompile Include="2-4\cpp\StraightBullets.cpp" />
+    <ClCompile Include="ソースファイル\GameMainScene.cpp" />
+    <ClCompile Include="ソースファイル\SceneManager.cpp" />
+    <ClCompile Include="ソースファイル\GameMain.cpp" />
+    <ClCompile Include="ソースファイル\SphereCollider.cpp" />
+    <ClCompile Include="ソースファイル\CharaBase.cpp" />
+    <ClCompile Include="ソースファイル\Player.cpp" />
+    <ClCompile Include="ソースファイル\KeyManager.cpp" />
+    <ClCompile Include="ソースファイル\BulletsBase.cpp" />
+    <ClCompile Include="ソースファイル\StraightBullets.cpp" />
+    <ClCompile Include="ソースファイル\Enemy.cpp" />
+    <ClCompile Include="ソースファイル\ItemBase.cpp" />
+    <ClCompile Include="ソースファイル\HpPotion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="2-4\cpp\AbstractScene.h" />
-    <ClInclude Include="2-4\cpp\GameMainScene.h" />
-    <ClInclude Include="2-4\cpp\SceneManager.h" />
-    <ClInclude Include="2-4\cpp\SphereCollider.h" />
-    <ClInclude Include="2-4\cpp\CharaBase.h" />
-    <ClInclude Include="2-4\cpp\Player.h" />
-    <ClInclude Include="2-4\cpp\KeyManager.h" />
-    <ClInclude Include="2-4\cpp\BulletsBase.h" />
-    <ClInclude Include="2-4\cpp\StraightBullets.h" />
+    <ClInclude Include="ヘッダーファイル\AbstractScene.h" />
+    <ClInclude Include="ヘッダーファイル\GameMainScene.h" />
+    <ClInclude Include="ヘッダーファイル\SceneManager.h" />
+    <ClInclude Include="ヘッダーファイル\SphereCollider.h" />
+    <ClInclude Include="ヘッダーファイル\CharaBase.h" />
+    <ClInclude Include="ヘッダーファイル\Player.h" />
+    <ClInclude Include="ヘッダーファイル\KeyManager.h" />
+    <ClInclude Include="ヘッダーファイル\BulletsBase.h" />
+    <ClInclude Include="ヘッダーファイル\StraightBullets.h" />
+    <ClInclude Include="ヘッダーファイル\Enemy.h" />
+    <ClInclude Include="ヘッダーファイル\ItemBase.h" />
+    <ClInclude Include="ヘッダーファイル\HPPotion.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

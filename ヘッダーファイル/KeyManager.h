@@ -17,7 +17,10 @@ public:
 			oldKey[i] = nowKey[i];
 		}
 		//nowKey = GetJoypadInputState(DX_INPUT_KEY_PAD1);
-		if (GetHitKeyStateAll(nowKey) == -1);
+		if (GetHitKeyStateAll(nowKey) == -1)
+		{
+			throw - 1;
+		}
 	}
 	//ƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚½uŠÔ
 	static bool OnClick(int inputKey)

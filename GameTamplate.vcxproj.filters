@@ -15,60 +15,78 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-4\cpp\SceneManager.cpp">
+    <ClCompile Include="ソースファイル\SceneManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\GameMain.cpp">
+    <ClCompile Include="ソースファイル\GameMain.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\GameMainScene.cpp">
+    <ClCompile Include="ソースファイル\GameMainScene.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\SphereCollider.cpp">
+    <ClCompile Include="ソースファイル\SphereCollider.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\CharaBase.cpp">
+    <ClCompile Include="ソースファイル\CharaBase.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\Player.cpp">
+    <ClCompile Include="ソースファイル\Player.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\KeyManager.cpp">
+    <ClCompile Include="ソースファイル\KeyManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\BulletsBase.cpp">
+    <ClCompile Include="ソースファイル\BulletsBase.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="2-4\cpp\StraightBullets.cpp">
+    <ClCompile Include="ソースファイル\StraightBullets.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソースファイル\Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソースファイル\ItemBase.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソースファイル\HpPotion.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="2-4\cpp\SceneManager.h">
+    <ClInclude Include="ヘッダーファイル\SceneManager.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\AbstractScene.h">
+    <ClInclude Include="ヘッダーファイル\AbstractScene.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\GameMainScene.h">
+    <ClInclude Include="ヘッダーファイル\GameMainScene.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\SphereCollider.h">
+    <ClInclude Include="ヘッダーファイル\SphereCollider.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\CharaBase.h">
+    <ClInclude Include="ヘッダーファイル\CharaBase.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\Player.h">
+    <ClInclude Include="ヘッダーファイル\Player.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\KeyManager.h">
+    <ClInclude Include="ヘッダーファイル\KeyManager.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\BulletsBase.h">
+    <ClInclude Include="ヘッダーファイル\BulletsBase.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="2-4\cpp\StraightBullets.h">
+    <ClInclude Include="ヘッダーファイル\StraightBullets.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ヘッダーファイル\Enemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ヘッダーファイル\ItemBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ヘッダーファイル\HPPotion.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
